@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table Quiz Game</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Periodic Table Quiz Game</h1>
+        <div id="quiz-container">
+            <p id="question">What is the symbol for <span id="element-name">Hydrogen</span>?</p>
+            <input type="text" id="answer" placeholder="Enter symbol here">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="feedback"></p>
+        </div>
+        <button id="next-question" onclick="nextQuestion()">Next Question</button>
+        <div id="score-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+    <script src="Game.js"></script>
+</body>
+</html>

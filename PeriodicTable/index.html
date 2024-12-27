@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table of Elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="AKB.png" alt="Logo" class="logo" width="59px" height="59px">
+            <nav>
+                <ul>
+                    <li><a href="#periodic-table"onclick="showSection('periodic-table')">Home</a></li>
+                    <li><a href="#about-section" onclick="showSection('about-section')" aria-label="Go to about section">About</a></li>
+                    <li><a href="index2.html" onclick="showSection('index2.html')">List</a></li>     
+                    <li><a href="Game.html"onclick="showSection('Game.html')">Game</a></li>
+                    <li><a href="#login-page"onclick="showSection('login-page')">Contact Us</a></li>
+
+                </ul>
+            </nav>
+
+            
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search for an element...">
+                <button onclick="searchElement()">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <h1>Periodic Table of Elements</h1>
+        <div class="legend">
+            <div class="category alkali-metal">Alkali Metal</div>
+            <div class="category alkaline-earth-metal">Alkaline Earth Metal</div>
+            <div class="category transition-metal">Transition Metal</div>
+            <div class="category actinide">Actinide</div>
+            <div class="category lanthanide">Lanthanide</div>
+            <div class="category metalloid">Metalloid</div>
+            <div class="category nonmetal">Nonmetal</div>
+            <div class="category halogen">Halogen</div>
+            <div class="category noble-gas">Noble Gas</div>
+            <div class="category post-transition-metal">Post-Transition Metal</div>
+            <div class="category unknown">Unknown</div>
+        </div>
+        <table id="periodic-table"></table>
+    </main>
+<!-- bgfuyhfgsd------------------------------------------------------------ -->
+<div id="about-section">
+    <h1>History of the periodic table</h1>
+    <h3>Why Arrange Elements in a Table?</h3><br>
+     <p>Seeing chemical elements arranged in the modern periodic table is as familiar as seeing a map of the world, but it was not always so obvious.</p><br>
+     <p>The creator of the periodic table, <a class="regular-link" href="https://www.chemistryworld.com/features/the-father-of-the-periodic-table/3009828.article">Dmitri Mendeleev</a>, in 1869 began collecting and sorting known properties of elements, like he was playing a game, while traveling by train. He noticed that there were groups of elements that exhibited similar properties, but he also noticed that there were plenty of exceptions to the emerging patterns.</p><br>
+     <p>Incredibly, instead of giving up, he tried altering the measured property values to better fit the patterns! He also predicted that certain elements must exist which didn’t at the time – again, in an effort to get the patterns in his "game" to work out.</p><br>
+     <p>There were plenty of skeptics and it took years to gain international acceptance, but once newly-discovered elements matched the ones that Mendeleev predicted, his patterns could not be dismissed. In addition, some of the properties that he "fudged" were later recalculated and found to be much closer to his predictions.</p><br><br>
+
+
+     <h3>Does the Modern Periodic Table Change? If So, How and Who Does That?</h3><br>
+     <p>The periodic table as we know it today is managed by <a class="regular-link" href="https://iupac.org/what-we-do/periodic-table-of-elements/">the International Union of Pure and Applied Chemistry, or IUPAC.</a></p><br>
+     <p>While much of what is in the periodic table is stable and unlikely to change, the IUPAC organization is responsible for deciding what needs to be changed. They have created criteria for what constitutes the discovery of a new element.</p><br>
+     <p>In addition, any new element must be assigned a temporary name and symbol, and if validated, given an official name. Such was the case when IUPAC recently reviewed elements 113, 115, 117 and 118, and decided to give them official names and symbols (goodbye, ununseptium and hello, tennessine!).</p><br>
+     <p>Atomic weights found within a periodic table one might think are constant. The truth is that <a>atomic weights have changed as a function of time.</a> Since 1899 the IUPAC Commission on Isotopic Abundances and Atomic Weights (<a>CIAAW</a>) has been evaluating atomic weights and abundances. For example, Carbon had an atomic weight of 12.00 in 1902 but today it is [12.0096, 12.0116]! Times sure have changed as the source of the sample will determine the value.</p><br>
+     <p>Finally, IUPAC assigns collective names (lanthanoids and actinoids) and group numbering (1 to 18) and has investigated the membership of the group 3 elements.</p><br>
+     <p>PubChem is working with IUPAC to help make information about the elements and the periodic table machine-readable.</p>
+
+
+</div>
+ <!-- dgvydgvb[----------------------------------------------------------] -->
+ <div id="login-page">
+    <main>
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><i class="fas fa-user"></i> Name: Aashu Baria</p>
+                    <p><i class="fas fa-envelope"></i> Email: ashubaria2004@gmail.com</p>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact me</h2>
+                    <!-- <p>Get In Touch</p> -->
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder="Message.."></textarea>
+                        <button type="submit">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+ </div>
+  <!-- bdshvsb[--------------------------------------------------------------------------] -->
+  <div class="social-icons">
+    <a href="https://www.facebook.com/share/8vpXWebGzj6HzPrj/?mibextid=qi2Omg"  title="facebook"> 
+        <i class="fa fa-facebook-square" aria-hidden="true"><img src="facebook.png" alt="" height="40px"width="40px"></i>
+    </a>
+    <a href="https://x.com/Aashu303?s=09" title="twitter"> 
+      <i class="fa fa-twitter-square" aria-hidden="true"><img src="twitter.png" alt="" height="40px"width="40px"></i>
+    </a>
+    <a href="https://www.instagram.com/a_ashu_.03" title="instagram">  
+      <i class="fa fa-instagram" aria-hidden="true"><img src="instagram.png" alt="" height="40px"width="40px"></i>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/aashu-baria-41517b262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="linkedin">
+      <i class="fa fa-linkedin-square" aria-hidden="true"><img src="linkedin.png" alt="" height="40px"width="40px"></i>
+    </a>
+    <a href="https://github.com/AashuBaria03" title="Github">
+        <i class="fa fa-Github-square" aria-hidden="true"><img src="github.png" alt="" height="40px"width="40px"></i>
+      </a>
+
+  </div>
+   <!-- ndsvsid----------------------------------------------------------------- -->
+
+    <footer>
+        <p>&copy; 2024 Periodic Table of Elements. | ADIT Anand,Gujrat | @Aashu</p>
+    </footer>
+
+
+    <!-- Modal for element details -->
+    <div id="element-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="element-name"></h2>
+            <p id="element-details"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

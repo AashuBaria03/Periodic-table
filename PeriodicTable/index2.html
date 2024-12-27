@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table of Elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search for an element...">
+        <button onclick="searchElement()">Search</button>
+    </div>
+    <section id="list-section">
+        <table id="elements-table">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Atomic Mass (u)</th>
+                    <th>Standard State</th>
+                    <th>Electron Configuration</th>
+                    <th>Oxidation States</th>
+                    <th>Electronegativity (Pauling Scale)</th>
+                    <th>Atomic Radius (pm)</th>
+                    <th>Ionization Energy (eV)</th>
+                    <th>Electron Affinity (eV)</th>
+                    <th>Melting Point (K)</th>
+                    <th>Boiling Point (K)</th>
+                    <th>Density (g/cm³)</th>
+                    <th>Year Discovered</th>
+                </tr>
+            </thead>
+            <tbody id="elements-body">
+                <!-- Rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </section>
+    <script src="script2.js"></script>
+</body>
+</html>
